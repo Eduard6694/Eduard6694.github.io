@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina web acerca de desarrollo de software">
+    <title>DataSolutions INC. </title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/CSS/contactos.css">
+    <link rel="shortcut icon" href="/images/logo.png" />
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <img src="/images/logo.png" alt="Logo de Mi Sitio Web" class="logo">
+        <h1>DataSolutions INC.</h1>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/SUCREInstitutooficial/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/SUCREInstituto" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/sucreinstituto/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@tecnologicosucre5610/featured" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contactos.html">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Contenido -->
+    <section class="main-section">
+        <h2>Contacta con nosotros</h2>
+        <p>Formulario de contacto.</p>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <div class="contact-container">
+        <h2>Información de Contacto</h2>
+        <div class="contact-info">
+            <div>
+                <i class="fas fa-map-marker-alt"></i>
+                Dirección: <span>123 Calle Ficticia, Ciudad Ficticia</span>
+            </div>
+            <div>
+                <i class="fas fa-phone"></i>
+                Teléfono: <span>(123) 456-7890</span>
+            </div>
+            <div>
+                <i class="fas fa-envelope"></i>
+                Correo Electrónico: <span>info@miempresa.com</span>
+            </div>
+            <div>
+                <i class="fab fa-facebook"></i>
+                Facebook: <span>@miempresa</span>
+            </div>
+            <div>
+                <i class="fab fa-twitter"></i>
+                Twitter: <span>@miempresa_twitter</span>
+            </div>
+        </div>
+
+        <!-- Mapa y formulario aquí -->
+    </div>
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2023 DataSolutions. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
