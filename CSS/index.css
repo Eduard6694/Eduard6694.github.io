@@ -1,0 +1,240 @@
+/* Reset de estilos para asegurar la consistencia en diferentes navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilos para el header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    position: relative; 
+}
+
+/* Estilos para el logo */
+.logo {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    max-width: 100px; /* Ajusta el tamaño del logo según tus necesidades */
+    height: auto;
+}
+
+/* Estilos generales de la página */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 25px;
+    text-align: right;
+}
+nav li.activo a {
+    border-bottom: 2px solid #fff; /* Línea de subrayado */
+    padding-bottom: 5px; /* Ajuste opcional según tus necesidades */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #40a78d; /* Color de resaltado al pasar el cursor */
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Estilos para la sección principal */
+.main-section {
+    padding: 20px;
+}
+.mision {
+    background-color: #fff;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+            text-align: center;
+}
+
+.mision h1 {
+    color: #3498db;
+}
+
+.mision p {
+    line-height: 1.8;
+}
+/* Estilos para las secciones de productos y servicios */
+.productos-section,
+.servicios-section {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.servicios {
+    background-color: #fff;
+    border: 5px solid #27ae60;
+    border-radius: 10px;
+    padding: 60px;
+    max-width: auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+   
+}
+
+.servicios h2 {
+    color: #27ae60;
+}
+
+.servicios p {
+    line-height: 1.6;
+}
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para la sección de redes sociales */
+.redes-sociales {
+    margin-top: 0px;
+    text-align: right;
+}
+
+.redes-sociales a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.redes-sociales i {
+    font-size: 25px;
+}
+
+/* Estilos para hacer la página responsive */
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    nav ul {
+        text-align: right;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+   
+    /* Estilos para la sección principal */
+.main-section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para la galería de imágenes */
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+}
+
+/* Estilos para la sección de noticias */
+.noticias-section {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-wrap: wrap; /* Permite que las noticias se envuelvan a una nueva línea si no hay suficiente espacio */
+    gap: 20px;
+    
+    
+}
+.noticias-section h2 {
+    width: 100%;
+}
+
+.noticias-section h2 {
+    text-align: center;
+}
+
+.noticia {
+    flex: 0 0 calc(40% - 20px); /* Cada noticia ocupa el 50% del ancho del contenedor (menos el espacio entre ellas) */
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: auto;
+}
+.imagen-noticia {
+    position: relative;
+}
+.imagen-noticia img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.noticia img {
+    width: 100%;
+    max-width: auto;
+    height: auto;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.texto-noticia {
+    padding: 5px; /* Ajusta el espaciado del texto dentro del contenedor */
+    background-color: #f4f4f4; /* Color de fondo para resaltar el texto */
+}
+
