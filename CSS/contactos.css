@@ -121,11 +121,14 @@ form button:hover {
 }
 
 .contact-container {
-    max-width: 800px;
+    max-width: max-content;
     width: 100%;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    
+    
 }
 .contact-info {
     margin-top: 20px;
